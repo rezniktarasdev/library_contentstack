@@ -1,0 +1,79 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffff00;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.bold-text {
+font-weight: bold;
+}
+
+.card-container h1 {
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.card-container p,
+.card-container .author,
+.card-container .pages {
+margin-bottom: 8px;
+}
+
+.card-container img {
+margin-bottom: 20px;
+}
+
+.card-container .book-cover {
+width: 200px;
+height: auto;
+margin-bottom: 20px;
+}
+
+.card-container .author {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.card-container .pages {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.card-container .description {
+margin-bottom: 20px;
+}
+
+.buy-link {
+background-color: #0080ff;
+color: #fff;
+padding: 10px 20px;
+border-radius: 4px;
+text-decoration: none;
+}
+
+.buy-link:hover {
+background-color: #005cbf;
+}
+
+.card-container a:first-child {
+margin-bottom: 10px;
+font-size: 16px;
+color: #000;
+text-decoration: none;
+}
+
+.card-container a:first-child:focus {
+text-decoration: underline;
+}
+
+.copyright_book {
+    font-size: 10px;
+}

@@ -1,0 +1,13 @@
+.star-rating-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.star-rating {
+    margin: 5px;
+}
+
+.star-rating-container .filled {
+    fill: red;
+  }
